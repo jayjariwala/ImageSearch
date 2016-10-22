@@ -1,13 +1,13 @@
 var express=require('express');
-var request=require('request');
 var Flickr=require('flickrapi');
+var mongoose=require('mongoose');
 var app = express();
 var controller=require('./controller/ImageSearchController');
 
 
-controller(app,request,Flickr);
+controller(app,Flickr,mongoose);
 
 
 
-var port= Number(process.env.PORT || 8080);
+var port= Number(process.env.PORT || 8082);
 app.listen(port);
