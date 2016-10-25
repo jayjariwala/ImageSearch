@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title>URL Shorter</title>
+  <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Assets/js/bootstrap.min.js"></script>
+    <link href="Assets/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Proza+Libre" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<div class="logo">
+  <center>
+      <img src="Assets/img/logo.jpg" width="400px" class="img img-responsive"/>
+  </center>
+</div>
+<br/>
+
+</br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+
+      <div class="well">
+        <form class="form-horizontal" method="post" action="/imageapi">
+  <fieldset>
+
+  <!-- Form Name -->
+  <legend>
+
+  <span class="form">Search</span>
+
+  </legend>
+
+  <!-- Text input-->
+  <div class="form-group">
+
+    <div class="col-md-12">
+    <input id="" name="url" type="text" placeholder="Search Keyword" class="form-control input-md">
+
+    </div>
+  </div>
+
+  <!-- Button -->
+  <div class="form-group">
+
+    <div class="col-md-12">
+      <button id="" name="" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+
+  </fieldset>
+  </form>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="col-lg-6">
+        <h1>Image Search Microservice</h1>
+        <div class="instuctions">
+          <ul>
+            <li>
+              Pass a query as a parameter and get the image URLs, alt text and thumbnail image for a set of images relating to a given search string.
+              </li>
+              <li>
+                Paginate through the responses by adding a ?offset=10 parameter to the URL.
+
+              </li>
+              <li>
+
+
+              Get a list of the most recently submitted search strings.
+            </li>
+            <li>
+              Visit that shortened URL, and it will redirect to the original link.
+            </li>
+
+          </ul>
+          <h2>Example</h2>
+          <ul>
+            <li>
+              <span class="list-group-item-info">/imageapi/grumpy%20cat?offset=2</span>
+            </li>
+            <li>
+              <span class="list-group-item-info">/latest -</span> get latest Searches
+            </li>
+          </ul>
+
+        </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+</div>
+<br/>
+</br/>
+<div class="footer">
+  <span class="name">Developed by Jay Jariwala &copy; 2016</span>
+  <span class="brand"><img src="Assets/img/flick.ico" width="25px"/>Powered by Flicker API</span>
+
+
+
+
+</div>
+
+</body>
+
+</html>

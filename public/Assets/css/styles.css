@@ -1,0 +1,52 @@
+body{
+  margin-top:30px;
+  background-color:white;
+  font-family: 'Proza Libre', sans-serif;
+  font-family: 'Arvo', serif;
+}
+
+.well
+{
+  background-color: white;
+  border:none;
+  color:white;
+  opacity: 0.9;
+}
+.btn
+{
+  background-color: white;
+  color:#fe0000;
+}
+.btn:hover{
+  color:white;
+  background-color:#fe0000;
+}
+.form
+{
+  color:#fe0000;
+}
+.footer
+{
+
+  color:#fe0000;
+  background-color: #c0c0c0;
+  margin-bottom: 0px;
+  height: 50px;
+  padding-top:15px;
+}
+.brand
+{
+  float:right;
+  margin-right: 20px;
+}
+.name
+{
+
+  margin-left: 20px;
+  padding-top:10px;
+}
+.icons
+{
+  margin-left: auto;
+
+}
