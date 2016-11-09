@@ -16,7 +16,7 @@ module.exports = function(app, Flickr, mongoose) {
 
     //database connection
 
-    mongoose.connect("mongodb://test:test@ds063856.mlab.com:63856/imagesearch");
+    mongoose.connect("mongodb://id:pass@ds063856.mlab.com:63856/imagesearch");
 
     var history = mongoose.model('history', {
 
